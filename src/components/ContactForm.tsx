@@ -37,6 +37,7 @@ export const ContactForm = () => {
 
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID, {
+        to_email: values.email,
         from_name: values.name,
         from_email: values.email,
         message: values.message,
