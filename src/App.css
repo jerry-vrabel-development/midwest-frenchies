@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+.text-lg {
+  color: #ff0000;
+}
+
+.text-brand-primary {
+  color: #0000ff;
+}
