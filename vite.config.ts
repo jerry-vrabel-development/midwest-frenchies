@@ -7,8 +7,11 @@ export default defineConfig({
   plugins: [react(),tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
+      devOptions: {
+        enabled: true
+      },
       manifest: {
-        name: "Puppy PWA",
+        name: "Midwest Frenchies",
         short_name: "Puppies",
         icons: [
           {
