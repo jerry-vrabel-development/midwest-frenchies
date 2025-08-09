@@ -21,5 +21,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/midwest-frenchies/'
+  base: process.env.NODE_ENV === 'production' ? '/midwest-frenchies/' : '/',
 })
