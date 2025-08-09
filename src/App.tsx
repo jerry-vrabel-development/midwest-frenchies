@@ -5,16 +5,18 @@ import HomePage from './pages/HomePage';
 import NotFound from './pages/NotFound';
 import AboutBreeder from './pages/AboutBreeder';
 import { PuppiesGrid } from './components/PuppiesGrid';
+import ContactPage from './pages/ContactPage';
 
 
 export default function App() {
   return (
-    <BrowserRouter basename="/midwest-frenchies">
+    <BrowserRouter basename="/midwest-frenchies/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="about-breeder" element={<AboutBreeder />} />
           <Route path="puppies" element={<PuppiesGrid />} />
+          <Route path="contact" element={<ContactPage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
