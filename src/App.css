@@ -11,3 +11,12 @@
 .text-brand-primary {
   color: #0000ff;
 }
+
+.contact-form .field {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+}

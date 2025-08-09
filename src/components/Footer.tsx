@@ -57,21 +57,12 @@ export default function Footer() {
             Sitemap
           </Link>
           <span className="text-xs">
-            ©2025 DogSpot – All rights reserved
+            ©2025 Midwest Frenchies – All rights reserved
           </span>
         </div>
 
         {/* 3️⃣ Small map (Google Maps embed) */}
         <div className="w-full h-32 sm:h-32">
-          <iframe
-            title="DogSpot office location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093684!2d-122.4194152846827!3d37.77492977975src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093684!2d-122.4194152846827!3d3777492977975993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064b1b3d2d3%3A0xb9c0f0e5e9b9b7d0!2sSan%20Francisco%2C%293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064b1b3d2d3%3A0xb9c0f0e5e9b9b7d0!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1690000000000!5m2!1sen!2sus"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
         </div>
       </div>
     </footer>
