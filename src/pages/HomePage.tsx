@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import { PuppiesGrid } from '../components/PuppiesGrid';
 
 export default function HomePage() {
   return (
