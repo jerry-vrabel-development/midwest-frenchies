@@ -1,22 +1,20 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Logo from './Logo'
 
-export const NavBar: React.FC = () => {
+export const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        <Link to="/" className="text-2xl font-bold text-purple-600">
-          <img src="/logo.svg" alt="Breeder Logo" className="h-8 w-auto" />
-        </Link>
-
+        <Logo />
         {/* Desktop links */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/gallery" className="text-gray-700 hover:text-purple-600">
+          <Link to="/puppies" className="text-gray-700 hover:text-purple-600">
             Puppies
           </Link>
-          <Link to="/about" className="text-gray-700 hover:text-purple-600">
+          <Link to="/about-breeder" className="text-gray-700 hover:text-purple-600">
             About
           </Link>
           <Link to="/contact" className="text-gray-700 hover:text-purple-600">
@@ -59,13 +57,13 @@ export const NavBar: React.FC = () => {
       {open && (
         <div className="md:hidden bg-white shadow-md">
           <Link
-            to="/gallery"
+            to="/puppies"
             className="block px-4 py-2 text-gray-700 hover:bg-purple-50"
           >
             Puppies
           </Link>
           <Link
-            to="/about"
+            to="/about-breeder"
             className="block px-4 py-2 text-gray-700 hover:bg-purple-50"
           >
             About

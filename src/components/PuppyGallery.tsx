@@ -1,4 +1,5 @@
 import { PuppyCard } from "./PuppyCard";
+import type { PuppyCardProps } from './PuppyCard';
 import { useEffect, useState } from "react";
 
 export const PuppyGallery: React.FC = () => {

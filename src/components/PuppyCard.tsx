@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-interface PuppyCardProps {
+export interface PuppyCardProps {
   id: string;
   name: string;
   age: string; // e.g., "2 weeks"
