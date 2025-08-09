@@ -9,7 +9,7 @@ import { PuppiesGrid } from './components/PuppiesGrid';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/midwest-frenchies">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
