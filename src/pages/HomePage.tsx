@@ -13,10 +13,10 @@ export default function HomePage() {
       
       <Hero />
 
-      <div className="text-center mt-12">
+      <div className="text-white text-center mt-12">
         <Link
           to="/about-breeder"
-          className="inline-block px-8 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+          className="inline-block px-8 py-3 bg-orange-600  rounded-md hover:bg-blue-700 transition"
         >
           Learn More About Our Breeders
         </Link>
