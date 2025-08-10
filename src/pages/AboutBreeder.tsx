@@ -1,27 +1,27 @@
+import outputImg from "../assets/images/breeder-walk.jpg";
+import outputImg2 from "../assets/images/kennel-room.jpg";
+import outputImg3 from "../assets/images/patio.jpg";
+import outputImg4 from "../assets/images/frenchie5.jpg";
+
 export default function AboutBreeder() {
   /* ------------------  STORY  ------------------ */
   const story = `
-    From a young age, I was fascinated by the noble spirit of dogs.
-    After graduating with a degree in Animal Science, I dedicated
-    my career to raising pure‑bred puppies that are healthy, well
-    socialised, and fit for family life. My goal is simple:
-    to make responsible breeding a beacon of excellence in the
-    dog‑owner community.
+    From a young age, I was fascinated by the noble spirit of dogs. After graduating with a degree in Animal Science, I dedicated my career to raising pure‑bred puppies that are healthy, well socialised, and fit for family life. My goal is simple: to make responsible breeding a beacon of excellence in the dog‑owner community.
   `;
 
   /* ------------------  PHOTOS  ------------------ */
   // Replace the `src` URLs with your real images.
   const galleryImages = [
     {
-      src: 'https://images.unsplash.com/photo-1585238348249-9c6e0f2a7ab4?auto=format&fit=crop&w=600&q=60',
-      alt: 'Breeder walking a puppy in the garden',
+      src: outputImg4,
+      alt: 'French Bulldog puppy at home',
     },
     {
-      src: 'https://images.unsplash.com/photo-1595433574736-7e3b0a0b2d5b?auto=format&fit=crop&w=600&q=60',
+      src: outputImg2,
       alt: 'Kennel room with two pups resting',
     },
     {
-      src: 'https://images.unsplash.com/photo-1589915592921-9efc8e2c3e6c?auto=format&fit=crop&w=600&q=60',
+      src: outputImg3,
       alt: 'Puppies playing on a sunny patio',
     },
   ];
@@ -44,7 +44,7 @@ export default function AboutBreeder() {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1585238348249-9c6e0f2a7ab4?auto=format&fit=crop&w=800&q=80"
+            src={outputImg}
             alt="Breeder with a puppy"
             className="rounded-xl shadow-lg w-full h-auto object-cover"
           />
