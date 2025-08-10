@@ -59,18 +59,21 @@ export const Navbar: React.FC = () => {
           <Link
             to="/puppies"
             className="block px-4 py-2 text-gray-700 hover:bg-purple-50"
+            onClick={() => setOpen(false)}
           >
             Puppies
           </Link>
           <Link
             to="/about-breeder"
             className="block px-4 py-2 text-gray-700 hover:bg-purple-50"
+            onClick={() => setOpen(false)}
           >
             About
           </Link>
           <Link
             to="/contact"
             className="block px-4 py-2 text-gray-700 hover:bg-purple-50"
+            onClick={() => setOpen(false)}
           >
             Contact
           </Link>

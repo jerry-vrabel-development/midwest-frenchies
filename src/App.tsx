@@ -11,6 +11,7 @@ import ContactPage from './pages/ContactPage';
 export default function App() {
   return (
     <BrowserRouter basename="/midwest-frenchies/">
+      <div className="min-h-screen bg-neutral dark:bg-neutral-dark">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
@@ -19,7 +20,8 @@ export default function App() {
           <Route path="contact" element={<ContactPage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
-      </Routes>
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
