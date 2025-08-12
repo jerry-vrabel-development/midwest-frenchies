@@ -26,7 +26,7 @@ const dummyPuppies: Puppy[] = [
 ];
 
 export const PuppiesGrid: React.FC = () => (
-  <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <section className="pt-20 pl-10 pr-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
     {dummyPuppies.map((p) => (
       <PuppyCard key={p.id} {...p} />
     ))}
