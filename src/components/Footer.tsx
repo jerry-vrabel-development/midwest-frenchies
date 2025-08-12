@@ -1,17 +1,16 @@
 import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { Link } from 'react-router-dom';          // or `next/link` if you’re in Next.js
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-gray-200 py-8">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8">
-        {/* 1️⃣ Social links */}
-        <div className="flex space-x-4 justify-center sm:justify-start">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* 1️⃣ Social Links */}
+        <div className="flex flex-wrap justify-start gap-4 sm:gap-6 mb-6">
           <a
             href="https://github.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub"
             className="hover:text-white transition-colors"
           >
             <FaGithub size={24} />
@@ -20,7 +19,6 @@ export default function Footer() {
             href="https://twitter.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Twitter"
             className="hover:text-white transition-colors"
           >
             <FaTwitter size={24} />
@@ -29,7 +27,6 @@ export default function Footer() {
             href="https://instagram.com/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Instagram"
             className="hover:text-white transition-colors"
           >
             <FaInstagram size={24} />
@@ -38,15 +35,14 @@ export default function Footer() {
             href="https://linkedin.com/in/yourprofile"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="LinkedIn"
             className="hover:text-white transition-colors"
           >
             <FaLinkedin size={24} />
           </a>
         </div>
 
-        {/* 2️⃣ Legal / quick links */}
-        <div className="flex flex-col items-center sm:items-start space-y-2 text-sm">
+        {/* 2️⃣ Legal Links */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
           <Link to="/privacy" className="hover:text-white transition-colors">
             Privacy Policy
           </Link>
@@ -56,13 +52,19 @@ export default function Footer() {
           <Link to="/sitemap" className="hover:text-white transition-colors">
             Sitemap
           </Link>
-          <span className="text-xs">
-            ©2025 Midwest Frenchies – All rights reserved
-          </span>
         </div>
 
-        {/* 3️⃣ Small map (Google Maps embed) */}
-        <div className="w-full h-32 sm:h-32">
+        {/* 3️⃣ Map Section */}
+        <div className="w-full h-40 sm:h-32 rounded-lg bg-gray-700 flex items-center justify-center">
+          {/* Replace this with your Google Maps embed */}
+          <div className="text-center">
+            <p className="text-gray-400">📍 Location Map</p>
+          </div>
+        </div>
+
+        {/* 4️⃣ Copyright */}
+        <div className="mt-6 text-center text-xs">
+          ©2025 Midwest Frenchies – All rights reserved
         </div>
       </div>
     </footer>
