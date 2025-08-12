@@ -1,10 +1,11 @@
 import { PuppyCard } from "./PuppyCard";
-import outputImg from "../assets/images/output.jpg";
-import output2Img from "../assets/images/output2.jpg";
-import output3Img from "../assets/images/output3.jpg";
-import output4Img from "../assets/images/frenchie1.jpg";
-import output5Img from "../assets/images/frenchie2.jpg";
-import output6Img from "../assets/images/frenchie3.jpg";
+import lyla from "../assets/images/lyla.jpg";
+import nala from "../assets/images/nala.jpg";
+import panda from "../assets/images/panda.jpg";
+import rocky from "../assets/images/rocky.jpg";
+import tiger from "../assets/images/tiger.jpg";
+import bear from "../assets/images/bear.jpg";
+import daisy from "../assets/images/daisy.jpg";
 
 interface Puppy {
   id: string;
@@ -15,13 +16,13 @@ interface Puppy {
 }
 
 const dummyPuppies: Puppy[] = [
-  { id: "1", name: "Buddy", age: "3 weeks", image: outputImg, isAvailable: true },
-  { id: "2", name: "Luna",  age: "3 weeks", image: output2Img,  isAvailable: true },
-  { id: "3", name: "Max", age: "3 weeks", image: output3Img, isAvailable: true },
-  { id: "4", name: "Spot", age: "3 weeks", image: output4Img, isAvailable: true },
-  { id: "5", name: "Bella", age: "3 weeks", image: output5Img, isAvailable: true },
-  { id: "6", name: "Clifford", age: "3 weeks", image: output6Img, isAvailable: true },
-  { id: "7", name: "Frank", age: "3 weeks", image: outputImg, isAvailable: true },
+  { id: "1", name: "Lyla", age: "3 weeks", image: lyla, isAvailable: true },
+  { id: "2", name: "Nala",  age: "3 weeks", image: nala,  isAvailable: true },
+  { id: "3", name: "Panda", age: "3 weeks", image: panda, isAvailable: true },
+  { id: "4", name: "Rocky", age: "3 weeks", image: rocky, isAvailable: true },
+  { id: "5", name: "Tiger", age: "3 weeks", image: tiger, isAvailable: true },
+  { id: "6", name: "Bear", age: "3 weeks", image: bear, isAvailable: true },
+  { id: "7", name: "Daisy", age: "3 weeks", image: daisy, isAvailable: true },
 ];
 
 export const PuppiesGrid: React.FC = () => (
