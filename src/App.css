@@ -1,22 +1,32 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-.text-lg {
-  color: #ffffff;
-}
-
-.text-brand-primary {
-  color: #0000ff;
+:root {
+  --color-primary: #1E3A8A;
+  --color-secondary: #F59E0B;
+  --text-color: #1F2937;
+  --background-color: #FFFFFF;
+  --card-bg: #F9FAFB;
+  --border-color: #E5E7EB;
 }
 
-.contact-form .field {
-  margin-bottom: 1rem;
+/* Base styles for buttons, links, etc. */
+button {
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
-.contact-form label {
-  display: block;
-  margin-bottom: 0.25rem;
+button:hover {
+  transform: scale(1.02);
+}
+
+/* Dark mode */
+.dark {
+  color-scheme: dark;
+}
+
+.dark :root {
+  --color-primary: #9333EA;
+  --color-secondary: #F97316;
+  --text-color: #F3F4F6;
+  --background-color: #111827;
+  --card-bg: #1F2937;
+  --border-color: #4B5563;
 }
