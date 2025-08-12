@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -8,7 +8,7 @@ export default function Footer() {
         {/* 1️⃣ Social Links */}
         <div className="flex flex-wrap justify-start gap-4 sm:gap-6 mb-6">
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/jerry-vrabel-development/midwest-frenchies"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors"
@@ -30,14 +30,6 @@ export default function Footer() {
             className="hover:text-white transition-colors"
           >
             <FaInstagram size={24} />
-          </a>
-          <a
-            href="https://linkedin.com/in/yourprofile"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-white transition-colors"
-          >
-            <FaLinkedin size={24} />
           </a>
         </div>
 
