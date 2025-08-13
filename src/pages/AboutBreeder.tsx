@@ -6,8 +6,14 @@ import outputImg4 from "../assets/images/frenchie5.jpg";
 export default function AboutBreeder() {
   /* ------------------  STORY  ------------------ */
   const story = `
-    From a young age, I was fascinated by the noble spirit of dogs. After graduating with a degree in Animal Science, I dedicated my career to raising pure‑bred puppies that are healthy, well socialised, and fit for family life. My goal is simple: to make responsible breeding a beacon of excellence in the dog‑owner community.
-  `;
+    At the heart of Midwest Frenchies lies a profound commitment to nurturing purebred puppies that embody vitality, charm, and unwavering health. Each litter is carefully bred to uphold the highest standards of genetic integrity, ensuring every puppy is a testament to the harmony of nature and care.
+
+Our philosophy is rooted in the belief that a dog’s character is as vital as its health. From the moment a puppy is born, they are raised in an environment that fosters curiosity, confidence, and gentle socialization. This foundation ensures they grow into companions who thrive in family life, bringing joy with their playful spirit and loyal hearts.
+
+Health is the cornerstone of our mission. Through rigorous breeding practices, meticulous health screenings, and a focus on long-term well-being, we prioritize the physical and emotional resilience of every puppy. Our goal is not just to breed dogs but to cultivate enduring bonds between pets and their families—where love, character, and health are inseparable.
+
+Midwest Frenchies stands as a beacon of responsible breeding, dedicated to crafting companions who are as remarkable as the lives they enrich.
+`;
 
   /* ------------------  PHOTOS  ------------------ */
   // Replace the `src` URLs with your real images.
