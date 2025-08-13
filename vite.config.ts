@@ -47,7 +47,7 @@ export default defineConfig({
             urlPattern: /^https:\/\/jerry-vrabel-development.github.io\/midwest-frenchies\/.*/,
             handler: 'NetworkFirst',
             options: {
-              cacheName: 'puppies-page-cache',
+              cacheName: 'midwest-frenchies-cache',
               expiration: {
                 maxEntries: 100,
                 maxAgeSeconds: 30 * 24 * 60 * 60 // 30 days

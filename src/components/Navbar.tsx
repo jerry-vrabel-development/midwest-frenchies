@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
         {/* Mobile hamburger */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-gray-700 hover:text-purple-600 focus:outline-none"
+          className="md:hidden  text-gray-700 hover:text-purple-600 focus:outline-none"
           aria-label="Toggle menu"
         >
           <svg
