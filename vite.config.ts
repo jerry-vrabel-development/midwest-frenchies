@@ -35,7 +35,8 @@ export default defineConfig({
         theme_color: '#6a0dad',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/midwest-frenchies/puppies',
+        "start_url": "/midwest-frenchies/",
+        "scope": "/midwest-frenchies/",
         description: 'Adorable French Bulldog puppies for sale from Midwest Frenchies'
       },
       workbox: {
@@ -43,12 +44,12 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/jerry-vrabel-development.github.io\/midwest-frenchies\/puppies/,
+            urlPattern: /^https:\/\/jerry-vrabel-development.github.io\/midwest-frenchies\/.*/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'puppies-page-cache',
               expiration: {
-                maxEntries: 10,
+                maxEntries: 100,
                 maxAgeSeconds: 30 * 24 * 60 * 60 // 30 days
               }
             }
