@@ -1,0 +1,21 @@
+{
+  "name": "Midwest Frenchies",
+  "short_name": "Puppies",
+  "icons": [
+    {
+      "src": "/icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#6a0dad",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/puppies",
+  "description": "Adorable French Bulldog puppies for sale from Midwest Frenchies"
+}
