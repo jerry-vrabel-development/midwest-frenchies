@@ -35,7 +35,7 @@ export default defineConfig({
         theme_color: '#6a0dad',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/midwest-frenchies/',
+        start_url: '/midwest-frenchies/puppies',
         description: 'Adorable French Bulldog puppies for sale from Midwest Frenchies'
       },
       workbox: {
